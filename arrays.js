@@ -53,6 +53,6 @@ function removeElementFromEndOfArray(array) {
 }
 
 function removeElementFromEndOfArray(array) {
-  array = array.slice(-1, 3);
+  array = array.slice(3, 1);
   return array;
 }
